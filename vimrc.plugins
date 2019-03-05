@@ -18,9 +18,10 @@ Plugin 'vim-scripts/taglist.vim'
   let Tlist_Auto_Open = 0
   let Tlist_Show_One_File = 0
 
-Plugin 'alvan/vim-closetag'
+" Plugin 'alvan/vim-closetag'
 
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
   " let g:airline#extensions#branch#enabled = 0   " Don't display branch
   " let g:airline#extensions#tabline#show_splits = 0
 
@@ -87,7 +88,7 @@ Plugin 'szw/vim-ctrlspace'
     " let g:ctrlspace_ignored_files = '\v(tmp|temp)[\/]'
   endif
 
-Plugin 'ctrlp/ctrlp.git'
+Plugin 'ctrlpvim/ctrlp.vim.git'
   set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 Plugin 'szw/vim-maximizer.git'
@@ -104,7 +105,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'rizzatti/dash.vim'
 
 " Syntax plugins
-Plugin 'evanmiller/nginx-vim-syntax'
+" Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'groenewege/vim-less'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'jQuery'
@@ -136,8 +137,8 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " Run ruby tests with ,r (all) or ,R (current test)
 " Plugin 'skalnik/vim-vroom'
-Plugin 'janx/vim-rubytest'
-  let g:rubytest_in_quickfix = 1
+" Plugin 'janx/vim-rubytest'
+  " let g:rubytest_in_quickfix = 1
   " let g:rubytest_cmd_test = "ruby %p"
   " let g:rubytest_cmd_testcase = "ruby %p -n '/%c/'"
   " let g:rubytest_cmd_spec = "bundle exec rspec -f specdoc %p"
